@@ -1,0 +1,22 @@
+package OopsDemo3;
+
+public class Hostel {
+	String name,location;
+
+	public Hostel(String name, String location) {
+		this.name = name;
+		this.location = location;
+	}
+
+	
+	//generating getters
+	public String getName() {
+		return name;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+	
+	
+}
